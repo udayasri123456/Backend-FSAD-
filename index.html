@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura | Mental Health Platform</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+  <!-- Decorative Animated Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <div class="glass-panel login-container">
+    <h1>Aura Platform</h1>
+    <h3 id="form-subtitle">Login to your account</h3>
+
+    <div class="form-group">
+      <input type="text" id="username" placeholder="Username">
+    </div>
+    <div class="form-group">
+      <input type="password" id="password" placeholder="Password">
+    </div>
+    
+    <div class="form-group">
+      <select id="role">
+        <option value="Student">Student</option>
+        <option value="Admin">Admin</option>
+      </select>
+    </div>
+
+    <!-- Login Button -->
+    <button id="action-btn" class="btn" style="margin-bottom: 20px;" onclick="handleLogin()">Login to Aura</button>
+    
+    <p class="toggle-mode" id="toggle-text">
+      New to Aura? <a href="register.html" style="color:var(--secondary-color); text-decoration:none; font-weight:600;">Create an Account</a>
+    </p>
+  </div>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>

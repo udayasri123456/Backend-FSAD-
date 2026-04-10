@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Aura</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+  <!-- Decorative Animated Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <div class="glass-panel login-container">
+    <h1>Join Aura</h1>
+    <h3 id="form-subtitle">Create your safe space</h3>
+
+    <div class="form-group">
+      <input type="text" id="reg-username" placeholder="Choose a Username">
+    </div>
+    <div class="form-group">
+      <input type="password" id="reg-password" placeholder="Create a Password">
+    </div>
+    <div class="form-group">
+      <input type="password" id="reg-confirm" placeholder="Confirm Password">
+    </div>
+    
+    <div class="form-group">
+      <select id="reg-role">
+        <option value="Student">I am a Student</option>
+        <option value="Admin">I am an Admin</option>
+      </select>
+    </div>
+
+    <!-- Register Button -->
+    <button id="register-btn" class="btn" style="margin-bottom: 20px; background:var(--secondary-color); color:white;" onclick="handleRegister()">Create Account</button>
+    
+    <p class="toggle-mode" id="toggle-text">
+      Already have an account? <a href="index.html" style="color:var(--primary-color); text-decoration:none; font-weight:600;">Log In</a>
+    </p>
+
+  </div>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>

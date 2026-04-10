@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Aura</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+  <!-- Decorative Animated Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <div class="dash-header">
+    <h1>Welcome to Aura Platform</h1>
+    <h3 style="color:var(--text-muted); font-weight:300;">Your safe space for mental wellness</h3>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h2>🧠 Self Help Resources</h2>
+      <p>Access our library of mindfulness, meditation, and stress relief guides tailored for you.</p>
+      <button class="btn" onclick="showResources()">Explore</button>
+    </div>
+
+    <div class="card">
+      <h2>👨‍⚕ Virtual Therapy</h2>
+      <p>Connect with professional counselors and therapists from the comfort of your home.</p>
+      <button class="btn" onclick="bookSession()">Book Session</button>
+    </div>
+
+    <div class="card">
+      <h2>🤝 Support Groups</h2>
+      <p>Join peer discussions, share experiences, and find emotional support in our community.</p>
+      <button class="btn" onclick="openForum()">Join Forum</button>
+    </div>
+  </div>
+
+  <div id="output" class="glass-panel" style="display: none; margin-top: 40px; margin-bottom: 40px;"></div>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
